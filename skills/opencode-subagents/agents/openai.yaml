@@ -1,0 +1,4 @@
+interface:
+  display_name: "opencode Subagents"
+  short_description: "Delegate tasks to opencode models as subagents"
+  default_prompt: "Use $opencode-subagents to run this task through opencode and report its answer, model, session id, and cost."
