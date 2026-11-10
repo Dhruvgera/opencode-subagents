@@ -9,7 +9,7 @@ metadata:
 
 # opencode subagents
 
-Run [opencode](https://opencode.ai) non-interactively as a subagent and get back only its final answer. Everything goes through the bundled wrapper `scripts/oc.py` (Python 3.9+, standard library only). It finds the opencode binary, always runs `opencode run --archived --format json`, parses the event stream, and prints:
+Run [opencode](https://opencode.ai) non-interactively as a subagent and get back only its final answer. Everything goes through the bundled wrapper `scripts/oc.py` (Python 3.10+, standard library only). It finds the opencode binary, always runs `opencode run --archived --format json`, parses the event stream, and prints:
 
 ```
 <final answer>

@@ -24,7 +24,7 @@ The skill follows the [Agent Skills format](https://agentskills.io/specification
 ## Requirements
 
 - [opencode](https://opencode.ai) installed and signed in to at least one provider. The CLI, npm/bun installs, and the desktop app's bundled CLI are all detected. Otherwise set `OPENCODE_BIN` to the executable.
-- Python 3.9+ (standard library only). Linux, macOS, and Windows are supported and tested in CI.
+- Python 3.10+ (standard library only). Linux, macOS, and Windows are supported and tested in CI.
 
 Check your setup:
 

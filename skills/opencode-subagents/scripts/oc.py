@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Run opencode as a subagent for Claude Code, Codex, and other skill-aware agents.
 
-Standard library only. Python 3.9+. Works on Linux, macOS, and Windows.
+Standard library only. Python 3.10+. Works on Linux, macOS, and Windows.
 
 Subcommands:
   run     Run one task; print the agent's final answer plus a one-line footer.
